@@ -1,0 +1,25 @@
+1)create ass4 folder in which create 2 files 1)ubuntu file vm_amdk
+
+2)open virtualbox - new - sekect all.
+browsec- get ampk file - same for both
+
+3)* vm1 - goto file - preferences - network NAT
+  * vm1 - setting - network -select NAT n/w
+
+4)double click and start both vm inside cmd - username:vagrant , passward:vagrant 
+
+- ifconfig ig ---for both->vm1->vm2
+
+5)see the inet addr of both
+
+6)commands for vm1:
+-ls
+-touch file.txt
+-cat file.txt
+-nano file.txt
+-cat file.txt
+-scp file.txt vagrant@(ipaddress)10..0.2.16:/home/vagrant
+
+7)command for vm2 
+-ls
+-cat file.txt
